@@ -1,1 +1,1 @@
-## C# Eğitim Kapmı
+# C# Eğitim Kapmı
