@@ -14,40 +14,40 @@ namespace _09_DataBaseProject
         {
             // Ado.net
 
-            Console.WriteLine("***** C# Veri Tabanli Urun-Kategori Bilgi Sistemi *****");
-            Console.WriteLine();
-            Console.WriteLine();
+            //Console.WriteLine("***** C# Veri Tabanli Urun-Kategori Bilgi Sistemi *****");
+            //Console.WriteLine();
+            //Console.WriteLine();
 
-            string tableNumer;
+            //string tableNumer;
 
-            Console.WriteLine("--------------------------------------");
-            Console.WriteLine("1-Kategoriler");
-            Console.WriteLine("2-Urunler");
-            Console.WriteLine("3-Siparisler");
-            Console.WriteLine("4-Cikis Yap");
-            Console.Write("Lutfen girmek istediginiz tablo numrasini giriniz: ");
-            tableNumer = Console.ReadLine();
-            Console.WriteLine("--------------------------------------");
+            //Console.WriteLine("--------------------------------------");
+            //Console.WriteLine("1-Kategoriler");
+            //Console.WriteLine("2-Urunler");
+            //Console.WriteLine("3-Siparisler");
+            //Console.WriteLine("4-Cikis Yap");
+            //Console.Write("Lutfen girmek istediginiz tablo numrasini giriniz: ");
+            //tableNumer = Console.ReadLine();
+            //Console.WriteLine("--------------------------------------");
 
-            SqlConnection connection = new SqlConnection("Data Source=LAPTOP-G1HGNHG3\\SQLEXPRESS;initial Catalog=EgitimKampiDb;integrated security=true");
-            connection.Open();
-            SqlCommand command = new SqlCommand("Select * From TblCategory", connection);
-            SqlDataAdapter adapter = new SqlDataAdapter(command); // C# ile sql arasinda veri alisverisi yapmamizi saglar
-            DataTable dataTable = new DataTable(); // Verileri gecici olarak tutmak icin
-            adapter.Fill(dataTable); // Verileri tabloya doldurur
+            //SqlConnection connection = new SqlConnection("Data Source=LAPTOP-G1HGNHG3\\SQLEXPRESS;initial Catalog=EgitimKampiDb;integrated security=true");
+            //connection.Open();
+            //SqlCommand command = new SqlCommand("Select * From TblCategory", connection);
+            //SqlDataAdapter adapter = new SqlDataAdapter(command); // C# ile sql arasinda veri alisverisi yapmamizi saglar
+            //DataTable dataTable = new DataTable(); // Verileri gecici olarak tutmak icin
+            //adapter.Fill(dataTable); // Verileri tabloya doldurur
 
-            foreach (DataRow row in dataTable.Rows)
-            {
-                foreach (var item in row.ItemArray)
-                {
-                    Console.Write(item.ToString() + " ");
-                }
-                Console.WriteLine();
-            }
+            //foreach (DataRow row in dataTable.Rows)
+            //{
+            //    foreach (var item in row.ItemArray)
+            //    {
+            //        Console.Write(item.ToString() + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
 
-            connection.Close();
+            //connection.Close();
 
-            Console.Read();
+            //Console.Read();
         }
     }
 }
