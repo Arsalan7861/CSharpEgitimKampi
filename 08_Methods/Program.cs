@@ -132,24 +132,25 @@ namespace _08_Methods
 
             #region Ornek Uygulamasi
 
-            string ExamResult(string student, int exam1, int exam2, int exam3)
-            {
-                int result = (exam1 + exam2 + exam3) / 3;
+            //string ExamResult(string student, int exam1, int exam2, int exam3)
+            //{
+            //    int result = (exam1 + exam2 + exam3) / 3;
 
-                if (result >= 50)
-                {
-                    return student + " isimli ogrenci sinavi gecti " + "Ortalama: " + result;
-                }
-                else
-                {
-                    return student + " isimli ogrenci sinavi gecemedi " + "Ortalama: " + result;
-                }
-            }
+            //    if (result >= 50)
+            //    {
+            //        return student + " isimli ogrenci sinavi gecti " + "Ortalama: " + result;
+            //    }
+            //    else
+            //    {
+            //        return student + " isimli ogrenci sinavi gecemedi " + "Ortalama: " + result;
+            //    }
+            //}
 
-            Console.WriteLine(ExamResult("Ali", 34, 56, 30));
-            Console.WriteLine(ExamResult("Ahmet", 78, 89, 90));
+            //Console.WriteLine(ExamResult("Ali", 34, 56, 30));
+            //Console.WriteLine(ExamResult("Ahmet", 78, 89, 90));
 
             #endregion
+
             Console.Read();
         }
     }
