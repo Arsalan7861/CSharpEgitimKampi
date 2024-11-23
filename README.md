@@ -26,6 +26,15 @@ Bu projede, `foreach` döngüsünü daha yakından inceleyip bir sınav simülas
 ## 📝 Proje 8: Geriye Değer Döndüren Fonksiyonlar
 Bu projede, kullanıcıdan aldığım verileri işleyip sonuç döndüren fonksiyonlar oluşturdum. Daha karmaşık işlemleri uygulayarak fonksiyonların gücünü öğrendim. 🎗️
 
----
+## Entity FrameWork:
+Bu projede Entity Framework metodlarını kullanarak farklı LINQ sorgularını yaptım. Örneğin:
+- Veritabanından verileri çekme
+- Veritabanına veri ekleme
+- Veritabanındaki verileri güncelleme
+- Veritabanından veri silme
+- Farklı ve karmaşık LINQ sorguları ile verileri filtreleme ve sıralama
+  
+![Entity Framework](https://github.com/Arsalan7861/CSharpEgitimKampi/blob/master/EntityFramework.png)
+
 
 Bu projeler, C# dilinde temel kavramları öğrenme ve uygulama fırsatı sunmuştur. Gelecekte bu temelleri daha ileri projelerle geliştirmeyi planlıyorum!
