@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace CSharpEgitimKampi301.EFProject
 {
-    public partial class Form1 : Form
+    public partial class FrmGuide : Form
     {
-        public Form1()
+        public FrmGuide()
         {
             InitializeComponent();
         }

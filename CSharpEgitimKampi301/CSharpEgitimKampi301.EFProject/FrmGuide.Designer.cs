@@ -1,6 +1,6 @@
 ﻿namespace CSharpEgitimKampi301.EFProject
 {
-    partial class Form1
+    partial class FrmGuide
     {
         /// <summary>
         /// Required designer variable.
@@ -156,7 +156,7 @@
             this.btnGetById.UseVisualStyleBackColor = false;
             this.btnGetById.Click += new System.EventHandler(this.btnGetById_Click);
             // 
-            // Form1
+            // FrmGuide
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -173,7 +173,7 @@
             this.Controls.Add(this.btnList);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "FrmGuide";
             this.Text = "Rehber Islemleri";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
