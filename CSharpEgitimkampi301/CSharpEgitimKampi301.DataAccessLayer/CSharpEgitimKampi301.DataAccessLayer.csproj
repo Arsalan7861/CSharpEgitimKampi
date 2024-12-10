@@ -110,7 +110,6 @@
     <Compile Include="EntityFramework\EfAdminDal.cs" />
     <Compile Include="EntityFramework\EfCategoryDal.cs" />
     <Compile Include="EntityFramework\EFCustomerDal.cs" />
-    <Compile Include="EntityFramework\EfProduct.cs" />
     <Compile Include="EntityFramework\EfProductDal.cs" />
     <Compile Include="Migrations\202411191825558_mig1.cs" />
     <Compile Include="Migrations\202411191825558_mig1.Designer.cs">
